@@ -1,12 +1,9 @@
-// Copyright (c) 2024 Custom Smol Tracker
-// SPDX-License-Identifier: Apache-2.0
-
 /dts-v1/;
 #include <nordic/nrf52833_qdaa.dtsi>
 
-/* 1. 引脚控制 (Pin Control) 配置 */
+// 1. 引脚控制 (Pin Control) 配置
 &pinctrl {
-    /* I2C (QMC6309) 引脚配置：使用外部上拉电阻，内部禁用 */
+    // I2C (QMC6309) 引脚配置：使用外部上拉电阻，内部禁用
     i2c0_default: i2c0_default {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 2)>,
@@ -23,7 +20,7 @@
         };
     };
 
-    /* SPI (LSM6DSV) 引脚配置 */
+    // SPI (LSM6DSV) 引脚配置
     spi1_default: spi1_default {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 0, 30)>,
@@ -40,13 +37,13 @@
         };
     };
 
-    /* PWM (共阳极 RGB) 引脚配置 */
+    // PWM (共阳极 RGB) 引脚配置 
     pwm0_default: pwm0_default {
         group1 {
-            psels = <NRF_PSEL(PWM_OUT0, 0, 15)>, /* Red */
-                    <NRF_PSEL(PWM_OUT1, 0, 17)>, /* Green */
-                    <NRF_PSEL(PWM_OUT2, 0, 20)>; /* Blue */
-            /* 专为共阳极配置：开漏输出 (拉低点亮，拉高断开) */
+            psels = <NRF_PSEL(PWM_OUT0, 0, 15)>, // Red
+                    <NRF_PSEL(PWM_OUT1, 0, 17)>, //Green
+                    <NRF_PSEL(PWM_OUT2, 0, 20)>; //Blue
+            //共阳极配置：开漏输出 (拉低点亮，拉高断开)
             nordic,drive-mode = <NRF_DRIVE_S0D1>;
             nordic,invert; 
         };
@@ -88,11 +85,10 @@
         };
     };
 
-    /* 按键配置 (SW0 睡眠) */
+    //SW0
     buttons {
         compatible = "gpio-keys";
         button0: button_0 {
-            /* 挂载在 P0.09 (NFC1 引脚) */
             gpios = <&gpio0 9 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
             label = "Sleep Button SW0";
         };
@@ -105,28 +101,25 @@
         pwm-led2 = &pwm_led2;
     };
 
-    /* ADC 电池电压测量 (参考 XIAO 原理图) */
+    //ADC
     battery-divider {
         compatible = "voltage-divider";
         status = "okay";
-        /* P0.05 对应的是 ADC 通道 3 (AIN3) */
         io-channels = <&adc 3>;
         output-ohms = <510000>;
         full-ohms = <(1000000+510000)>;
-        /* XIAO 使用 P0.14 作为测量使能脚，继续沿用 */
         power-gpios = <&gpio0 14 (GPIO_OPEN_DRAIN|GPIO_ACTIVE_LOW)>;
     };
 
-    /* SlimeVR 用户配置层 */
     zephyr,user {
-        /* LSM6DSV 的中断引脚 INT1 接到了 P0.10 (NFC2 引脚) */
+        // LSM6DSV INT1
         int0-gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
-        /* BQ25101 的 CHG 充电指示脚，通过上拉配置读取低电平有效信号 */
+        // BQ25101 CHG
         chg-gpios = <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
 
-/* 3. 启用与配置外设 */
+//启用与配置外设
 &reg1 {
     regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
 };
@@ -147,7 +140,7 @@
     status = "okay";
 };
 
-/* 禁用原生 UART0，为 USB CDC 让路 */
+//禁用原生UART0
 &uart0 {
     status = "disabled";
 };
@@ -159,7 +152,7 @@
     pinctrl-names = "default", "sleep";
 };
 
-/* 配置 I2C 挂载 QMC6309 */
+//i2c QMC6309
 &i2c0 {
     compatible = "nordic,nrf-twim";
     status = "okay";
@@ -177,13 +170,13 @@
     };
 };
 
-/* 配置 SPI 挂载 LSM6DSV */
+//SPI LSM6DSV
 &spi1 {
     compatible = "nordic,nrf-spim";
     status = "okay";
     cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
     
-    /* 这里也要同步改成 1 */
+    
     pinctrl-0 = <&spi1_default>;
     pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
@@ -199,7 +192,7 @@
     };
 };
 
-/* 开启 USB 虚拟串口 */
+// 开启USB
 zephyr_udc0: &usbd {
     compatible = "nordic,nrf-usbd";
     status = "okay";
@@ -208,7 +201,7 @@ zephyr_udc0: &usbd {
     };
 };
 
-/* 必须禁用 NFC 功能 */
+//禁用NFC
 &nfct {
     status = "disabled";
 };
