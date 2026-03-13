@@ -1,2 +1,23 @@
 CONFIG_ARM_MPU=y
 CONFIG_HW_STACK_PROTECTION=y
+
+CONFIG_BT_CTLR=y
+CONFIG_NFCT_PINS_AS_GPIOS=y
+CONFIG_SENSOR_USE_MAG=y
+CONFIG_LED_RGB_COLOR=y
+CONFIG_BATTERY_USE_REG_LDO_MAPPING=y
+
+CONFIG_USB_DEVICE_STACK=y
+CONFIG_USB_DEVICE_MANUFACTURER="Pluto"
+CONFIG_USB_DEVICE_PRODUCT="Pluto Slime-smol"
+
+# ==========================================
+#  Bootloader 内存偏移与固件生成
+# ==========================================
+# 如果你的芯片里【已经】通过 SWD 刷入了 Adafruit nRF52 Bootloader：
+# 请保持下面两行开启，编译后会生成 .uf2 文件供拖拽升级。
+# 
+# 如果你使用的是刚从工厂拿回来的【全空芯片】，且每次都用下载器烧录：
+# 请务必在下面两行前面加 # 号把它们注释掉，否则板子无法启动！
+#CONFIG_BUILD_OUTPUT_UF2=y
+#CONFIG_FLASH_LOAD_OFFSET=0x1000

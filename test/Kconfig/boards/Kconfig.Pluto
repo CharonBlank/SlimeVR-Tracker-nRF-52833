@@ -1,2 +1,0 @@
-# Load board Kconfig descriptions.
-osource "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/boards/NEUXS/Pluto/Kconfig.Pluto"

@@ -1,2 +1,0 @@
-"nrf":"E:/Code_Projects/nrf":"E:/Code_Projects/nrf/sysbuild"
-"mcuboot":"E:/Code_Projects/bootloader/mcuboot":"E:/Code_Projects/bootloader/mcuboot/boot/zephyr/sysbuild"
