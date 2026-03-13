@@ -1,0 +1,2 @@
+osource "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/boards/shields/*/Kconfig.defconfig"
+osource "E:/Code_Projects/nrf/boards/shields/*/Kconfig.defconfig"

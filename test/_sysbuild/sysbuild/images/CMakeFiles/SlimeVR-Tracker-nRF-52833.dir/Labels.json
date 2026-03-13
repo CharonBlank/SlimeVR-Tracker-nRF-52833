@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833-complete.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-build.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-configure.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-download.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-install.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-mkdir.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-patch.rule"
+		},
+		{
+			"file" : "E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SlimeVR-Tracker-nRF-52833"
+		],
+		"name" : "SlimeVR-Tracker-nRF-52833"
+	}
+}

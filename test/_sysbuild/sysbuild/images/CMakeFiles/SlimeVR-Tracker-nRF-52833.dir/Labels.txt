@@ -1,0 +1,13 @@
+# Target labels
+ SlimeVR-Tracker-nRF-52833
+# Source files and their labels
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/CMakeFiles/SlimeVR-Tracker-nRF-52833-complete.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-build.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-configure.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-download.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-install.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-mkdir.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-patch.rule
+E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-update.rule

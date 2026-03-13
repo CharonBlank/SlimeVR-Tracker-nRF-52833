@@ -1,0 +1,5 @@
+board:
+  name: Pluto
+  vendor: NEUXS
+  socs:
+    - name: nrf52833

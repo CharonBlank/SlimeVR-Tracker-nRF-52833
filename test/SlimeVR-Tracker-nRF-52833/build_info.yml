@@ -1,0 +1,57 @@
+cmake:
+  application:
+    configuration-dir: 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833'
+    source-dir: 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833'
+  board:
+    name: 'Pluto'
+    path:
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/boards/NEUXS/Pluto'
+    qualifiers: 'nrf52833'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'E:/Code_Projects/nrf/dts/bindings'
+     - 'E:/Code_Projects/zephyr/dts/bindings'
+    files:
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/boards/NEUXS/Pluto/Pluto.dts'
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/socs/nrf52833.overlay'
+    include-dirs:
+     - 'E:/Code_Projects/nrf/include'
+     - 'E:/Code_Projects/nrf/dts/common'
+     - 'E:/Code_Projects/nrf/dts/riscv'
+     - 'E:/Code_Projects/nrf/dts/arm'
+     - 'E:/Code_Projects/nrf/dts'
+     - 'E:/Code_Projects/zephyr/include'
+     - 'E:/Code_Projects/zephyr/include/zephyr'
+     - 'E:/Code_Projects/zephyr/dts/common'
+     - 'E:/Code_Projects/zephyr/dts/vendor'
+     - 'E:/Code_Projects/zephyr/dts/rx'
+     - 'E:/Code_Projects/zephyr/dts/x86'
+     - 'E:/Code_Projects/zephyr/dts/xtensa'
+     - 'E:/Code_Projects/zephyr/dts/sparc'
+     - 'E:/Code_Projects/zephyr/dts/riscv'
+     - 'E:/Code_Projects/zephyr/dts/posix'
+     - 'E:/Code_Projects/zephyr/dts/arm64'
+     - 'E:/Code_Projects/zephyr/dts/arm'
+     - 'E:/Code_Projects/zephyr/dts/arc'
+     - 'E:/Code_Projects/zephyr/dts'
+    user-files:
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/socs/nrf52833.overlay'
+  kconfig:
+    files:
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/boards/NEUXS/Pluto/Pluto_defconfig'
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/prj.conf'
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/SlimeVR-Tracker-nRF-52833/zephyr/misc/generated/extra_kconfig_options.conf'
+     - 'E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/SlimeVR-Tracker-nRF-52833/zephyr/.config.sysbuild'
+    user-files:
+     - 'prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/ncs/toolchains/c1a76fddb2/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: 'E:/Code_Projects/modules/hal/nordic/nrfx/mdk/nrf52833.svd'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: 'E:/Code_Projects/zephyr'
+version: '0.1.0'

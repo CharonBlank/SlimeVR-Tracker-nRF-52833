@@ -1,0 +1,11 @@
+# ninja log v5
+1	97	7951039187211893	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-mkdir	14c0b36d6cd2710c
+1	97	7951039187211893	E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-mkdir	14c0b36d6cd2710c
+97	126	7951039187501964	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-download	4802a1bedfda0f54
+97	126	7951039187501964	E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-download	4802a1bedfda0f54
+126	155	7951039187794589	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-update	53d3ca2e83d5080e
+126	155	7951039187794589	E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-update	53d3ca2e83d5080e
+155	185	7951039188094177	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-patch	65754a5ff9550791
+155	185	7951039188094177	E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-patch	65754a5ff9550791
+185	213	7951039188374239	_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-configure	716ab00a424ceec3
+185	213	7951039188374239	E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/_sysbuild/sysbuild/images/SlimeVR-Tracker-nRF-52833-prefix/src/SlimeVR-Tracker-nRF-52833-stamp/SlimeVR-Tracker-nRF-52833-configure	716ab00a424ceec3

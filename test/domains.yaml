@@ -1,0 +1,7 @@
+default: SlimeVR-Tracker-nRF-52833
+build_dir: E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test
+domains:
+  - name: SlimeVR-Tracker-nRF-52833
+    build_dir: E:/Code_Projects/SlimeVR-Tracker-nRF-52833/test/SlimeVR-Tracker-nRF-52833
+flash_order:
+  - SlimeVR-Tracker-nRF-52833

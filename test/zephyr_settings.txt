@@ -1,0 +1,13 @@
+# WARNING. THIS FILE IS AUTO-GENERATED. DO NOT MODIFY!
+#
+# This file contains build system settings derived from your modules.
+#
+# Modules may be set via ZEPHYR_MODULES, ZEPHYR_EXTRA_MODULES,
+# and/or the west manifest file.
+#
+# See the Modules guide for more information.
+"BOARD_ROOT":"E:/Code_Projects/nrf"
+"DTS_ROOT":"E:/Code_Projects/nrf"
+"SNIPPET_ROOT":"E:/Code_Projects/nrf"
+"SOC_ROOT":"E:/Code_Projects/nrf"
+"MODULE_EXT_ROOT":"E:/Code_Projects/nrf"
